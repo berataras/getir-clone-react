@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "components/home/Header";
+import HeroSection from "components/home/HeroSection";
+import Categories from "components/home/Categories";
+import Campaigns from "components/home/Campaigns"
+import Favorites from "components/home/Favorites";
+import MobileApp from "components/home/MobileApp";
+import Cards from "components/home/Cards";
+import Footer from 'components/home/Footer';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <> 
+      <Header />
+      <HeroSection />
+      <Categories />
+      <Campaigns />
+      <Favorites />
+      <MobileApp />
+      <Cards />
+      <Footer />
+    </>
   );
 }
-
-export default App;

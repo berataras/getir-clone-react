@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html, body{
+        font-family: 'Open Sans', sans-serif;
+        @apply subpixel-antialiased;
+    }
+}
+
+@layer components {
+    .nav-button{
+        @apply flex items-center text-white gap-x-2 transition-all text-opacity-80 hover:text-opacity-100;
+    }
+}
