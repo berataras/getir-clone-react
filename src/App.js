@@ -12,12 +12,6 @@ export default function App() {
     <> 
       <Header />
       <HeroSection />
-      <Categories />
-      <Campaigns />
-      <Favorites />
-      <MobileApp />
-      <Cards />
-      <Footer />
     </>
   );
 }

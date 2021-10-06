@@ -16,3 +16,15 @@
         @apply flex items-center text-white gap-x-2 transition-all text-opacity-80 hover:text-opacity-100;
     }
 }
+
+.flag-select{
+    @apply pb-0;
+}
+
+.flag-select button{
+    @apply h-14 border-2 border-gray-200 hover:border-primary-color focus:border-primary-color transition-all bg-white rounded
+}
+
+.flag-select button > span span:nth-child(2){
+    @apply text-sm pl-2
+}

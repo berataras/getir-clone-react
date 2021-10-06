@@ -4,9 +4,12 @@ module.exports = {
    darkMode: false,
    theme: {
     extend: {
-      backgroundColor: theme => ({
-        "brand-color": "#5d3ebc",
-       }),
+      colors: {
+            "primary-color": "#5d3ebc",
+            "secondary-color": "#7849f7",
+            "brand-color": "#5d3ebc",
+            "brand-yellow": "#FFD301"
+      },
     },
    },
    variants: {},
